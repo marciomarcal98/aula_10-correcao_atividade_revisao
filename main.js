@@ -10,10 +10,10 @@ function somar() {
 
     const resultado = numero1 + numero2
 
-    mostrarResultado(resultado)
+    const paragrafoResultado = document.querySelector("#resultado")
+    paragrafoResultado.textContent = `Resultado: ${resultado}`
 }
 
 function mostrarResultado(resultado) {
-    const paragrafoResultado = document.querySelector("#resultado")
-    paragrafoResultado.textContent = `Resultado: ${resultado}`
+    
 }
